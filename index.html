@@ -1,18 +1,31 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="lib/menu.css">
+    <link rel="stylesheet" href="/demo-head/demohead.css">
     <script src="lib/jquery-1.11.1.js"></script>
     <script src="lib/menu.js"></script>
     <script src="src/core.js"></script>
     <!-- optional if you're not using a DOM source for data -->
     <script src="src/dom.js"></script>
     <script src="src/init.js"></script>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="lib/menu.css">
+    <script src="/demo-head/loadfont.js"></script>
   </head>
   <body class="docs">
-    <div class="header">
-      <a href="http://filamentgroup.com/"><h1 id="fg-logo">Filament Group</h1></a>
+    <div class="demo-header">
+      <div class="company">
+        <img src="http://filamentgroup.com/images/fg-logo-positive-sm-crop.png">
+      </div>
+      <div class="details">
+        <p class="description-container">Demo of <span class="repo-name">Auto-Complete</span>
+          <span class="description">A very small auto-complete component.</span>
+        </p>
+        <ul class="outbound-links">
+          <li><a href="https://github.com/filamentgroup/auto-complete">Code</a></li>
+          <li><a href="https://github.com/filamentgroup/auto-complete/issues">Issues</a></li>
+        </ul>
+      </div>
     </div>
     <div class="autocomplete-docs">
       <p class="docs-intro">This is a demo for a lightweight auto-complete that can be populated via JSON or by DOM element text. Visit the <a href="https://github.com/filamentgroup/auto-complete">Github project page</a> for documentation.</p>
